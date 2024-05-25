@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 10%;
+    height: 100vh;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    width: 300px;
+}
+
+.campo {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.campo label {
+    margin-right: 10px;
+}
+
+#resultados {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#resultados p {
+    margin-bottom: 5px;
+}
+
+#resultados span {
+    font-weight: bold;
+}
+.titulo-destaque {
+    color: red;
+}
+img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    width: 150px;
+}
